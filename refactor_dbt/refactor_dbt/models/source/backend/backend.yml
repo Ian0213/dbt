@@ -1,8 +1,0 @@
-version: 2
-
-sources:
-  - name: datastore_backup
-    tables:
-      - name: ProblemLog
-      - name: StackLog
-      - name: VideoLog
