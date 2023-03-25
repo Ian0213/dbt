@@ -6,3 +6,13 @@ sources:
       - name: ProblemLog
       - name: StackLog
       - name: VideoLog
+      - name: Exam
+      - name: Exercise
+      - name: UserData
+      - name: CustomExam
+      - name: ExamLog
+  - name: streaming_log
+    tables:
+      - name: log_level_change_v2
+      
+  
