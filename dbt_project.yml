@@ -36,3 +36,6 @@ models:
     # Applies to all files under models/example/
     example:
       materialized: view
+    intermediate_append:
+      +materialized: "incremental"
+      +on_schema_change: "append_new_columns"
